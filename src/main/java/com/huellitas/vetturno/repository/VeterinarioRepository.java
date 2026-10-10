@@ -1,4 +1,7 @@
 package com.huellitas.vetturno.repository;
 
-public interface VeterinarioRepository {
+import com.huellitas.vetturno.model.Veterinario;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface VeterinarioRepository extends JpaRepository<Veterinario, Long> {
 }
